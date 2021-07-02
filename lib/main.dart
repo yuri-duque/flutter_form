@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:formulario/home.dart';
+import 'package:formulario/counter/page.dart';
+import 'package:formulario/form1/page.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(),
+      home: Form1Page(),
     );
   }
 }

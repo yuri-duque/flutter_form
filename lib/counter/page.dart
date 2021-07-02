@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:formulario/controller.dart';
+import 'package:formulario/counter/controller.dart';
 
-class MyHomePage extends StatelessWidget {
+class CounterPage extends StatelessWidget {
   final controller = Controller();
 
   @override
